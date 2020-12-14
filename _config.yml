@@ -1,0 +1,139 @@
+# Site
+repository: artun-o/artun-o.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Arvind Manikandan
+title: Full Stack Developer
+email: manikandanarvind@gmail.com
+website: https://artun-o.github.io 
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: facespics
+github_username:  artun-o
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: arvind-manikandan-66a3aa116
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: My folio
+  icon: fas fa-globe
+  url: https://artun-o.github.io/my_folio
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/user-orig.png
+about_content: | # this will include new lines to allow paragraphs
+  Passionate and driven software engineer bringing forth 2.5 years of full stack development experience.<br/><br/>
+  Adept in back-end services, API development, database management and general performance optimization.<br/><br/>
+  Fairly proficient with f ront-end development with clean, maintainable and modularized code.<br/><br/>
+
+  You can find me tinkering these days with <mark>Flutter</mark> and <mark>SDL</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-left
+        title: Trend Analysis
+        link: https://github.com/artun-o/trend_analysis
+        additional_links:
+          - title:  artun-o/trend_analysis
+            icon: fab fa-github
+            url: https://github.com/artun-o/trend_analysis
+
+        quote: >
+          Trend analysis is a WIP stock market analysis tool that gives buy/sell signals to investors
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way of learning <mark>Python</mark> and to have a hands-on experience at algorithm trading. 
+          
+          The app is not mature yet that I'd risk my portfolio on this but I'm planning on making it reliable enough to be a screener.
+
+      - layout: top-left
+        title: Anonymous chat room
+        link: https://github.com/artun-o/signal-poc
+        additional_links:
+          - title:  artun-o/signal-poc
+            icon: fab fa-github
+            url: https://github.com/artun-o/signal-poc
+
+        quote: >
+          An anonymous chat room integrated with Signal protocol for E2E encryption on messages.
+        description: | # this will include new lines to allow paragraphs
+          I had worked on this as a POC for a work project. 
+          
+          This uses the <mark>LibSignal</mark> JS protocol (https://github.com/signalapp/libsignal-protocol-javascript) for truly anonymous forward-secret IM. 
+          
+          Plan to add more features to this in the future to make a full fledged serverless chatroom.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Zoho Corporation
+        link: https://www.zoho.com
+        sub_title: Member of Technical Staff
+        caption: May 2018 - Present
+        description: | # this will include new lines to allow paragraphs
+            I'm working here currently as a full stack developer on Zoho's collaborative
+            chat application Cliq. My responsibilities here include, end-to-end module
+            development, platform integrations, REST API development, data modeling,
+            microservice migrations to name a few.
+            
+            I also actively manage the backend for a mobile-first consumer chat
+            application with end-to-end encryption that we're building currently.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Sairam Engineering College
+        caption: 2014 - 2018
+        sub_title: Bachelor's in Information Technology
+        description:
+          CGPA of 8.4
+
+      - layout: left
+        title: AMM Matriculation School
+        caption: 2012 - 2014
+        sub_title: High School (Computer science)
+        description:
+          94.5% (in finals)
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
