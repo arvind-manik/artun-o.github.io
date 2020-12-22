@@ -48,9 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/user-orig.png
 about_content: | # this will include new lines to allow paragraphs
-  Passionate and driven software engineer bringing forth 2.5 years of full stack development experience.<br/><br/>
+  Passionate and driven software engineer bringing forth 2+ years of full stack development experience.<br/><br/>
   Adept in back-end services, API development, database management and general performance optimization.<br/><br/>
-  Fairly proficient with front-end development with clean, maintainable and modularized code.<br/><br/>
+  Fairly proficient with front-end development producing clean, maintainable and modularized code.<br/><br/>
 
   You can find me tinkering these days with <mark>Flutter</mark> and <mark>SDL</mark>
 
